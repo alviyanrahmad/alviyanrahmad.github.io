@@ -1,0 +1,73 @@
+/* Font */
+@font-face {
+    font-family: 'baloo';
+    src: url('../font/baloo-chettan-2-v1-latin-regular.woff') format('woff');
+}
+
+body {
+    font: 18px/36px 'baloo', 'Arial Narrow', arial, sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    width: 592px;
+    height: 585px;
+    margin: auto;
+    margin-top: 5%;
+    background-image: url('../img/rakbuku.jpg');
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .3);
+    border-radius: 8px;
+}
+
+/* Table */
+table, td {
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+table {
+    border-spacing: 15px;
+    width: 500px;
+    padding: 10%;
+}
+
+.tbl2 {
+    margin-top: 13px;
+}
+
+.tbl2 img {
+    box-shadow: 3px ​0px 3px 3px rgba(0, 0, 0, .3);
+}
+
+.tbl3 {
+    margin-top: 13px;
+}
+
+.tbl4 {
+    margin-top: 15px;
+}
+
+.table-center {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Transition */
+
+.tbl1 a:hover img {
+    transform: scale(1.1);
+}
+
+.tbl2 a:hover img {
+    transform: scale(1.1);
+}
+
+.tbl3 a:hover img {
+    transform: scale(1.1);
+}
+
+.tbl4 a:hover img {
+    transform: scale(1.1);
+}
