@@ -58,16 +58,20 @@ table {
 
 .tbl1 a:hover img {
     transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 .tbl2 a:hover img {
     transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 .tbl3 a:hover img {
     transform: scale(1.1);
+    transition-duration: 1s;
 }
 
 .tbl4 a:hover img {
     transform: scale(1.1);
+    transition-duration: 1s;
 }
